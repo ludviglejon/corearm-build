@@ -1,10 +1,10 @@
 # Boundless OS
 
-A minimalistic Linux build for 64-bit ARM Cortex-A76 processors.
+A minimalistic Linux build for 64-bit ARM Cortex-A53 processors.
 
 ## Features
 - Command-line only interface
-- Optimized for 64-bit 2.4 GHz quad-core ARM Cortex-A76
+- Optimized for 64-bit 1.5 GHz quad-core ARM Cortex-A53
 - Automatic startup of Python applications
 - Support for Python GUI applications
 - Minimal footprint

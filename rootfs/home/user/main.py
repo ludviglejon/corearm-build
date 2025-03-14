@@ -57,7 +57,7 @@ def run_gui_app():
             info.append(f"Python Version: {platform.python_version()}")
             info.append(f"System: {platform.system()} {platform.release()}")
             info.append(f"Architecture: {platform.machine()}")
-            info.append(f"Processor: ARM Cortex-A76 (64-bit)")
+            info.append(f"Processor: ARM Cortex-A53 (64-bit)")
             info.append(f"Memory: {get_memory_info()}")
             info.append(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
             info.append(f"Hostname: {platform.node()}")

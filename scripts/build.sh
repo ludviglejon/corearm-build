@@ -14,7 +14,7 @@ source "$SCRIPT_DIR/config.sh"
 # Print banner
 echo "====================================="
 echo "    Building Boundless OS"
-echo "    Target: 64-bit ARM Cortex-A76"
+echo "    Target: 64-bit ARM Cortex-A53"
 echo "====================================="
 
 # Create necessary directories

@@ -5,8 +5,8 @@ CROSS_COMPILE="aarch64-linux-gnu-"
 ARCH="arm64"
 
 # Target CPU settings 
-TARGET_CPU="cortex-a76"
-CPU_FREQ="2.4GHz"
+TARGET_CPU="cortex-a53"
+CPU_FREQ="1.5GHz"  # Typical frequency for Cortex-A53
 CPU_CORES="4"
 
 # Build versions
