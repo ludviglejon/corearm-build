@@ -88,7 +88,7 @@ cat > "$TEMP_DIR/rootfs/etc/init.d/S99python" << EOF
 case "\$1" in
   start)
     printf "Starting Python application: "
-    cd /opt/boundless
+    cd /opt/corearm
     python main.py &
     echo "OK"
     ;;

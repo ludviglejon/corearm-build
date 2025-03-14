@@ -1,6 +1,6 @@
-# Boundless OS
+# CoreARM Build
 
-A minimalistic Linux build for 64-bit ARM Cortex-A53 processors.
+A minimalistic Linux build system for 64-bit ARM processors.
 
 ## Features
 - Command-line only interface
@@ -17,7 +17,7 @@ A minimalistic Linux build for 64-bit ARM Cortex-A53 processors.
 - `src/` - Source files for custom components
 
 ## Building
-To build Boundless OS:
+To build CoreARM:
 
 ```bash
 ./scripts/build.sh

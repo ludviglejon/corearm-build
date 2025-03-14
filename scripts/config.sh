@@ -15,5 +15,5 @@ BUSYBOX_VERSION="1.34.1"
 PYTHON_VERSION="3.9.7"
 
 # System settings
-HOSTNAME="boundless"
+HOSTNAME="corearm"
 USERNAME="user" 

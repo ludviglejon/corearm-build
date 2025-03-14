@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Boundless OS - Sample Python Application
+CoreARM Build - Sample Python Application
 This script runs automatically on system startup.
 Replace this with your own application.
 """
@@ -26,7 +26,7 @@ def run_gui_app():
 
         # Create main window
         root = tk.Tk()
-        root.title("Boundless OS - Sample Application")
+        root.title("CoreARM - Sample Application")
         root.geometry("600x400")
         
         # Configure style
@@ -37,7 +37,7 @@ def run_gui_app():
         header = ttk.Frame(root)
         header.pack(fill='x', padx=20, pady=10)
         
-        title = ttk.Label(header, text="Welcome to Boundless OS", font=("TkDefaultFont", 18, "bold"))
+        title = ttk.Label(header, text="Welcome to CoreARM", font=("TkDefaultFont", 18, "bold"))
         title.pack(side='left')
         
         # Create content area

@@ -96,18 +96,18 @@ EOF
 echo "Note: In a real build environment, you would need to install Python packages using chroot or QEMU"
 
 # Install the main.py script that will run on startup
-mkdir -p "$ROOTFS_DIR/opt/boundless"
-cat > "$ROOTFS_DIR/opt/boundless/main.py" << EOF
+mkdir -p "$ROOTFS_DIR/opt/corearm"
+cat > "$ROOTFS_DIR/opt/corearm/main.py" << EOF
 #!/usr/bin/env python3
 """
-Boundless OS main application
+CoreARM main application
 This script runs automatically on system startup
 """
 import os
 import sys
 import time
 
-print("Boundless OS - Python environment starting...")
+print("CoreARM - Python environment starting...")
 
 # Check if a user script exists and run it instead
 USER_SCRIPT = "/home/user/main.py"
@@ -126,10 +126,10 @@ else:
         # Create simple GUI application if display is available
         if os.environ.get('DISPLAY'):
             root = tk.Tk()
-            root.title("Boundless OS")
+            root.title("CoreARM")
             root.geometry("400x300")
             
-            label = tk.Label(root, text="Welcome to Boundless OS!")
+            label = tk.Label(root, text="Welcome to CoreARM!")
             label.pack(pady=20)
             
             info_text = tk.Text(root, height=10, width=40)
@@ -160,6 +160,6 @@ else:
 EOF
 
 # Make the script executable
-chmod +x "$ROOTFS_DIR/opt/boundless/main.py"
+chmod +x "$ROOTFS_DIR/opt/corearm/main.py"
 
 echo "Python setup completed!" 

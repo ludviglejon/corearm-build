@@ -13,8 +13,8 @@ source "$SCRIPT_DIR/config.sh"
 
 # Print banner
 echo "====================================="
-echo "    Building Boundless OS"
-echo "    Target: 64-bit ARM Cortex-A53"
+echo "    Building CoreARM Linux"
+echo "    Target: 64-bit ARM Architecture"
 echo "====================================="
 
 # Create necessary directories
@@ -65,6 +65,6 @@ echo "[4/5] Installing Python and dependencies..."
 # Step 5: Create final image
 echo "[5/5] Creating final image..."
 cd "$BUILD_DIR"
-"$SCRIPT_DIR/create_image.sh" "$BUILD_DIR/rootfs" "$BUILD_DIR/kernel/linux/arch/arm64/boot/Image" "$OUTPUT_DIR/boundless-os.img"
+"$SCRIPT_DIR/create_image.sh" "$BUILD_DIR/rootfs" "$BUILD_DIR/kernel/linux/arch/arm64/boot/Image" "$OUTPUT_DIR/corearm-build.img"
 
-echo "Build completed! Output image: $OUTPUT_DIR/boundless-os.img" 
+echo "Build completed! Output image: $OUTPUT_DIR/corearm-build.img" 
